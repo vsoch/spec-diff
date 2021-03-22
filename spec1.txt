@@ -1,0 +1,28 @@
+Input spec
+--------------------------------
+python@2.7
+
+Concretized
+--------------------------------
+python@2.7%gcc@9.3.0+bz2+ctypes+dbm~debug+libxml2+lzma~nis~optimizations+pic+pyexpat+pythoncmd+readline+shared+sqlite3+ssl~tix~tkinter~ucs4+uuid+zlib arch=linux-ubuntu20.04-broadwell
+    ^bzip2@1.0.8%gcc@9.3.0+shared arch=linux-ubuntu20.04-broadwell
+        ^diffutils@3.7%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+            ^libiconv@1.16%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+    ^expat@2.2.10%gcc@9.3.0+libbsd arch=linux-ubuntu20.04-broadwell
+        ^libbsd@0.10.0%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+    ^gdbm@1.18.1%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+        ^readline@8.0%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+            ^ncurses@6.2%gcc@9.3.0~symlinks+termlib arch=linux-ubuntu20.04-broadwell
+                ^pkgconf@1.7.3%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+    ^gettext@0.21%gcc@9.3.0+bzip2+curses+git~libunistring+libxml2+tar+xz arch=linux-ubuntu20.04-broadwell
+        ^libxml2@2.9.10%gcc@9.3.0~python arch=linux-ubuntu20.04-broadwell
+            ^xz@5.2.5%gcc@9.3.0~pic arch=linux-ubuntu20.04-broadwell
+            ^zlib@1.2.11%gcc@9.3.0+optimize+pic+shared arch=linux-ubuntu20.04-broadwell
+        ^tar@1.32%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+    ^libffi@3.3%gcc@9.3.0 patches=26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0 arch=linux-ubuntu20.04-broadwell
+    ^openssl@1.0.2u%gcc@9.3.0~docs+systemcerts arch=linux-ubuntu20.04-broadwell
+        ^perl@5.32.1%gcc@9.3.0+cpanm+shared+threads arch=linux-ubuntu20.04-broadwell
+            ^berkeley-db@18.1.40%gcc@9.3.0~docs patches=b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522 arch=linux-ubuntu20.04-broadwell
+    ^sqlite@3.34.0%gcc@9.3.0+column_metadata+fts~functions~rtree arch=linux-ubuntu20.04-broadwell
+    ^util-linux-uuid@2.36%gcc@9.3.0 arch=linux-ubuntu20.04-broadwell
+

@@ -1,0 +1,1472 @@
+{
+ "spec": [
+  {
+   "python": {
+    "version": "2.7",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "bz2": true,
+     "ctypes": true,
+     "dbm": true,
+     "debug": false,
+     "libxml2": true,
+     "lzma": true,
+     "nis": false,
+     "optimizations": false,
+     "pic": true,
+     "pyexpat": true,
+     "pythoncmd": true,
+     "readline": true,
+     "shared": true,
+     "sqlite3": true,
+     "ssl": true,
+     "tix": false,
+     "tkinter": false,
+     "ucs4": false,
+     "uuid": true,
+     "zlib": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "bzip2": {
+      "hash": "pa7clthqyqvdafhuiouvf75eux3u7lrr",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "expat": {
+      "hash": "wqicjmp55adcoucp4ya4np2nzrymutob",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "gdbm": {
+      "hash": "lrxrsxextpifba445yp7cxpix66mh5e4",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "gettext": {
+      "hash": "vu74qvvqo46c2sgvvv37rz2u62ny63ca",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "libffi": {
+      "hash": "tpx6ktqwzjgzgxxzqsxepko2e443m2xp",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "ncurses": {
+      "hash": "4pvie7oowkdyzivlxaaq52r7moa2ddmp",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "openssl": {
+      "hash": "gne2pkxnawyoau7xziu5sc6va5qrkxrt",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "pkgconf": {
+      "hash": "maplmtidtdincabqsxijbqyahb4yngro",
+      "type": [
+       "build"
+      ]
+     },
+     "readline": {
+      "hash": "gfv5lriujnowzgtuzxwd3bszrwizfyor",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "sqlite": {
+      "hash": "sv22rbbj6ew5hyn75gsapg6hqccqrvjz",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "util-linux-uuid": {
+      "hash": "fcu5etnmvk7ikglzywzv7dhzom6qp3lu",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "zlib": {
+      "hash": "emkoq3o2mtu377gy6plexktmkqchkgkb",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "746445rkw6v7gxlkkliaenoa74s5yfwy",
+    "full_hash": "pndpklickyikc6vl2gusot7zs4dm5wnk",
+    "build_hash": "gqatz5y5ovnqamtqzgxcenrk6jxu4rkb"
+   }
+  },
+  {
+   "bzip2": {
+    "version": "1.0.8",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "shared": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "diffutils": {
+      "hash": "r3wuu7immkefh33zflpab3uyewfxe5fv",
+      "type": [
+       "build"
+      ]
+     }
+    },
+    "hash": "qqfrndlugldz6n4jxmloalsfbzobmbce",
+    "full_hash": "xwlmoubrdlnk5rgpawmtnghei23sfsa7",
+    "build_hash": "pa7clthqyqvdafhuiouvf75eux3u7lrr"
+   }
+  },
+  {
+   "diffutils": {
+    "version": "3.7",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "libiconv": {
+      "hash": "z6xynmbt335a45vhx4bnzbfh66kvbqyn",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "r3wuu7immkefh33zflpab3uyewfxe5fv",
+    "full_hash": "dlxecyiz6nvbco76soumpgt3sbkoz2kv",
+    "build_hash": "r3wuu7immkefh33zflpab3uyewfxe5fv"
+   }
+  },
+  {
+   "libiconv": {
+    "version": "1.16",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "hash": "z6xynmbt335a45vhx4bnzbfh66kvbqyn",
+    "full_hash": "nzaacswzsavbfsx2pni3a2q3mshv5kjk",
+    "build_hash": "z6xynmbt335a45vhx4bnzbfh66kvbqyn"
+   }
+  },
+  {
+   "expat": {
+    "version": "2.2.10",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "libbsd": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "libbsd": {
+      "hash": "qz67v6bjwnajjblrtfreuafpum7ma4ep",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "wqicjmp55adcoucp4ya4np2nzrymutob",
+    "full_hash": "whv6qe2n3irejql5mb3wosqtyqlwvyil",
+    "build_hash": "wqicjmp55adcoucp4ya4np2nzrymutob"
+   }
+  },
+  {
+   "libbsd": {
+    "version": "0.10.0",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "hash": "qz67v6bjwnajjblrtfreuafpum7ma4ep",
+    "full_hash": "xm7ja2naoblppjiqett2zypi7ab6usjx",
+    "build_hash": "qz67v6bjwnajjblrtfreuafpum7ma4ep"
+   }
+  },
+  {
+   "gdbm": {
+    "version": "1.18.1",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "readline": {
+      "hash": "gfv5lriujnowzgtuzxwd3bszrwizfyor",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "x3ekorqhutuqcsam4wt7wx3f3xrpb4ps",
+    "full_hash": "dcfflwbvd76yrsp4duvttm7zbapdymwu",
+    "build_hash": "lrxrsxextpifba445yp7cxpix66mh5e4"
+   }
+  },
+  {
+   "readline": {
+    "version": "8.0",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "ncurses": {
+      "hash": "4pvie7oowkdyzivlxaaq52r7moa2ddmp",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "57hpe6euytstx3ivccv54qncahm4wtuk",
+    "full_hash": "m3di54xgofi2vk4vvbeplzrareejrek6",
+    "build_hash": "gfv5lriujnowzgtuzxwd3bszrwizfyor"
+   }
+  },
+  {
+   "ncurses": {
+    "version": "6.2",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "symlinks": false,
+     "termlib": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "pkgconf": {
+      "hash": "maplmtidtdincabqsxijbqyahb4yngro",
+      "type": [
+       "build"
+      ]
+     }
+    },
+    "hash": "c5onutekmwbsn3rq2tjq3x5jj746xjtj",
+    "full_hash": "yqj6illnrzzmgxujtzp6mdd5f4ko7uzn",
+    "build_hash": "4pvie7oowkdyzivlxaaq52r7moa2ddmp"
+   }
+  },
+  {
+   "pkgconf": {
+    "version": "1.7.3",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "hash": "maplmtidtdincabqsxijbqyahb4yngro",
+    "full_hash": "wj5wjq6cjqhbjfphepaqrnzrq3ofcs3c",
+    "build_hash": "maplmtidtdincabqsxijbqyahb4yngro"
+   }
+  },
+  {
+   "gettext": {
+    "version": "0.21",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "bzip2": true,
+     "curses": true,
+     "git": true,
+     "libunistring": false,
+     "libxml2": true,
+     "tar": true,
+     "xz": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "bzip2": {
+      "hash": "pa7clthqyqvdafhuiouvf75eux3u7lrr",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "libiconv": {
+      "hash": "z6xynmbt335a45vhx4bnzbfh66kvbqyn",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "libxml2": {
+      "hash": "u7mbfap2pdm27znpzwjuxdrkzomibtg6",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "ncurses": {
+      "hash": "4pvie7oowkdyzivlxaaq52r7moa2ddmp",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "tar": {
+      "hash": "jq3vj6uomb4vevbqbo3ubmlhuecc2afq",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "xz": {
+      "hash": "kaqmjzzlqbnek4t523xxvcijmqtv3j7t",
+      "type": [
+       "build",
+       "link",
+       "run"
+      ]
+     }
+    },
+    "hash": "zu5ot2mv7in3fxnbqogufn2vekurdkrr",
+    "full_hash": "joay2ytrsux5nctk2avejbzdhapxwaty",
+    "build_hash": "vu74qvvqo46c2sgvvv37rz2u62ny63ca"
+   }
+  },
+  {
+   "libxml2": {
+    "version": "2.9.10",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "python": false,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "libiconv": {
+      "hash": "z6xynmbt335a45vhx4bnzbfh66kvbqyn",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "pkgconf": {
+      "hash": "maplmtidtdincabqsxijbqyahb4yngro",
+      "type": [
+       "build"
+      ]
+     },
+     "xz": {
+      "hash": "kaqmjzzlqbnek4t523xxvcijmqtv3j7t",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "zlib": {
+      "hash": "emkoq3o2mtu377gy6plexktmkqchkgkb",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "vwqpclnn77c6fbrlnznrpwd3mez26bm3",
+    "full_hash": "soejwafsjqijnwo7kb6yjyrsfkcpfdw5",
+    "build_hash": "u7mbfap2pdm27znpzwjuxdrkzomibtg6"
+   }
+  },
+  {
+   "xz": {
+    "version": "5.2.5",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "pic": false,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "hash": "kaqmjzzlqbnek4t523xxvcijmqtv3j7t",
+    "full_hash": "ege4hfzeuyezmmksdbgzh2rxgmwkxj25",
+    "build_hash": "kaqmjzzlqbnek4t523xxvcijmqtv3j7t"
+   }
+  },
+  {
+   "zlib": {
+    "version": "1.2.11",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "optimize": true,
+     "pic": true,
+     "shared": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "hash": "emkoq3o2mtu377gy6plexktmkqchkgkb",
+    "full_hash": "wezel5hm7ng3pmfvh2ahwbzlwtwd5btg",
+    "build_hash": "emkoq3o2mtu377gy6plexktmkqchkgkb"
+   }
+  },
+  {
+   "tar": {
+    "version": "1.32",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "libiconv": {
+      "hash": "z6xynmbt335a45vhx4bnzbfh66kvbqyn",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "jq3vj6uomb4vevbqbo3ubmlhuecc2afq",
+    "full_hash": "nx73vmhhei6auhusq24vu2ihkhj4gzi4",
+    "build_hash": "jq3vj6uomb4vevbqbo3ubmlhuecc2afq"
+   }
+  },
+  {
+   "libffi": {
+    "version": "3.3",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "patches": [
+      "26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0"
+     ],
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "patches": [
+     "26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0"
+    ],
+    "hash": "tpx6ktqwzjgzgxxzqsxepko2e443m2xp",
+    "full_hash": "ok33ub47ddsjs4ux7nkufa7xz6e2pa2y",
+    "build_hash": "tpx6ktqwzjgzgxxzqsxepko2e443m2xp"
+   }
+  },
+  {
+   "openssl": {
+    "version": "1.0.2u",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "docs": false,
+     "systemcerts": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "perl": {
+      "hash": "uwrkdgar6ctlag4jh62bxywgkhtjcaxe",
+      "type": [
+       "build",
+       "test"
+      ]
+     },
+     "zlib": {
+      "hash": "emkoq3o2mtu377gy6plexktmkqchkgkb",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "ryyfwu7vdk7ig57ballypnsbhwqtw43r",
+    "full_hash": "lhurd6svz7dqeqp6ax3kutwgfwhuuks7",
+    "build_hash": "gne2pkxnawyoau7xziu5sc6va5qrkxrt"
+   }
+  },
+  {
+   "perl": {
+    "version": "5.32.1",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cpanm": true,
+     "shared": true,
+     "threads": true,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "berkeley-db": {
+      "hash": "2ydyeqcamaeomfhn2mvdwc6xjc6z2th2",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "gdbm": {
+      "hash": "lrxrsxextpifba445yp7cxpix66mh5e4",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "top5o3h3cotqxcutow3cssur2qzexbwo",
+    "full_hash": "3girkppty5za5v6as236rrfdkmwsus2y",
+    "build_hash": "uwrkdgar6ctlag4jh62bxywgkhtjcaxe"
+   }
+  },
+  {
+   "berkeley-db": {
+    "version": "18.1.40",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "docs": false,
+     "patches": [
+      "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+     ],
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "patches": [
+     "b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522"
+    ],
+    "hash": "2ydyeqcamaeomfhn2mvdwc6xjc6z2th2",
+    "full_hash": "aga7gnzvbawybpgvlajxrjb635f7jcrk",
+    "build_hash": "2ydyeqcamaeomfhn2mvdwc6xjc6z2th2"
+   }
+  },
+  {
+   "sqlite": {
+    "version": "3.34.0",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "column_metadata": true,
+     "fts": true,
+     "functions": false,
+     "rtree": false,
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "readline": {
+      "hash": "gfv5lriujnowzgtuzxwd3bszrwizfyor",
+      "type": [
+       "build",
+       "link"
+      ]
+     },
+     "zlib": {
+      "hash": "emkoq3o2mtu377gy6plexktmkqchkgkb",
+      "type": [
+       "build",
+       "link"
+      ]
+     }
+    },
+    "hash": "qmphgnimt7o5252mpgfjjatnpazwqdpd",
+    "full_hash": "hscet4cbc4wuwuzkld5ftgl565shupfi",
+    "build_hash": "sv22rbbj6ew5hyn75gsapg6hqccqrvjz"
+   }
+  },
+  {
+   "util-linux-uuid": {
+    "version": "2.36",
+    "arch": {
+     "platform": "linux",
+     "platform_os": "ubuntu20.04",
+     "target": {
+      "name": "broadwell",
+      "vendor": "GenuineIntel",
+      "features": [
+       "adx",
+       "aes",
+       "avx",
+       "avx2",
+       "bmi1",
+       "bmi2",
+       "f16c",
+       "fma",
+       "mmx",
+       "movbe",
+       "pclmulqdq",
+       "popcnt",
+       "rdrand",
+       "rdseed",
+       "sse",
+       "sse2",
+       "sse4_1",
+       "sse4_2",
+       "ssse3"
+      ],
+      "generation": 0,
+      "parents": [
+       "haswell"
+      ]
+     }
+    },
+    "compiler": {
+     "name": "gcc",
+     "version": "9.3.0"
+    },
+    "namespace": "builtin",
+    "parameters": {
+     "cflags": [],
+     "cppflags": [],
+     "cxxflags": [],
+     "fflags": [],
+     "ldflags": [],
+     "ldlibs": []
+    },
+    "dependencies": {
+     "pkgconf": {
+      "hash": "maplmtidtdincabqsxijbqyahb4yngro",
+      "type": [
+       "build"
+      ]
+     }
+    },
+    "hash": "fpwbj6zai3z6bgyrbag7hu72cf4mfdzz",
+    "full_hash": "lbludywjvzrcioitwdrugasb75r2ce7y",
+    "build_hash": "fcu5etnmvk7ikglzywzv7dhzom6qp3lu"
+   }
+  }
+ ]
+}
